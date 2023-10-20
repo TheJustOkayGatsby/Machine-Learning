@@ -53,20 +53,27 @@ Topics covered within this module:
     
 
 **In "Multi_classes_feature.ipynb":**
+
 Data Reading and Examination:
+
 - Reading a dataset from a CSV file.
 - Checking the dataset's structure and information using data.info().
+
 Data Preprocessing:
 - Encoding categorical variables ('quality') into numerical values.
 - Dropping unneeded columns ('quality') to prepare data for classification.
+
 Data Splitting:
 - Splitting the dataset into feature set (X) and label set (Y).
+
 Data Normalization:
 - Standardizing features (X) using StandardScaler.
+
 Random Forest Classifier:
 - Implementing a Random Forest Classifier.
 - Tuning hyperparameters using Grid Search to optimize the number of trees ('n_estimators').
 - Evaluating classifier performance based on precision.
+
 Feature Importance:
 - Extracting feature importances from the best model.
 - Principal Component Analysis (PCA):
@@ -75,61 +82,81 @@ Feature Importance:
 - Training a Random Forest Classifier on the PCA-transformed features.
 
 **In "LR.ipynb":**
+
 Data Reading and Examination:
 - Reading a dataset from a CSV file.
 - Checking dataset characteristics using data.info().
+
 Data Preprocessing:
 - Encoding categorical variables ('CentralAir' and 'PavedDrive') to numeric values.
 - Preparing data for linear regression.
+
 Data Splitting:
 - Splitting the dataset into feature set (X) and label set (Y).
+
 Data Normalization:
 - Standardizing features (X) using StandardScaler.
+
 Linear Regression (LR):
 - Implementing a Linear Regression model.
 - Hyperparameter tuning using Grid Search for learning rate ('eta0') and maximum iterations ('max_iter').
 - Evaluating the model's performance based on R-squared.
+
 Regularization:
 - Applying L2 regularization (Elastic Net) by using the 'alpha' and 'l1_ratio' parameters.
 
 **In "SVM1.ipynb":**
+
 Data Reading and Examination:
 - Reading a dataset from a CSV file.
 - Checking the dataset's structure and information using data.info().
+
 Data Preprocessing:
 - Encoding categorical variables ('PastEmployee', 'OverTime', 'Gender') into binary values.
 - Preparing data for SVM classification.
+
 Data Splitting:
 - Splitting the dataset into feature set (X) and label set (Y).
+
 Data Normalization:
 - Standardizing features (X) using StandardScaler.
+
 Support Vector Classifier (SVC):
 - Implementing a Support Vector Classifier (SVC) model.
 - Hyperparameter tuning using Grid Search for the kernel type and regularization parameter ('C').
 - Evaluating the model's performance based on accuracy and confusion matrix.
 
 **In "Encoding MultiClass, SVR and RFReg.ipynb":**
+
 Data Reading and Examination:
 - Reading a dataset from a CSV file.
 - Checking the dataset's structure and information using data.info().
+
 Data Preprocessing:
 - Encoding categorical variables ('Status') into binary values.
 - Preparing data for regression analysis.
+
 Data Analysis:
 - Calculating and visualizing the correlation between features using a heatmap.
+
 Feature Selection:
 - Dropping unneeded columns ('infant deaths', 'percentage expenditure') from the dataset.
+
 Data Splitting:
 - Splitting the dataset into feature set (X) and label set (Y).
+
 Target Encoding:
 - Applying target encoding to the 'Country' column using the TargetEncoder from the category_encoders library.
+
 Data Normalization:
 - Standardizing features (X) using StandardScaler.
+
 Random Forest Regression:
 - Implementing Random Forest Regression.
 - Hyperparameter tuning using Grid Search for the number of trees ('n_estimators').
 - Evaluating the regression model's performance based on R-squared.
 - Extracting feature importances from the best model.
+
 Support Vector Regression (SVR):
 - Applying Support Vector Regression (SVR).
 - Hyperparameter tuning using Grid Search for the kernel type and regularization parameter ('C').
