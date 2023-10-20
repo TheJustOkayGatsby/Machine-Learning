@@ -51,8 +51,9 @@ Topics covered within this module:
   8) **Evaluation Metrics**
      - Models' performances are evaluated based on **R-squared** metrics and **P-Values**
     
+**MODELS**
 
-**In "Multi_classes_feature.ipynb":**
+A) **In "Multi_classes_feature.ipynb":**
 
 Data Reading and Examination:
 
@@ -81,7 +82,7 @@ Feature Importance:
 - Transforming features using PCA for dimensionality reduction.
 - Training a Random Forest Classifier on the PCA-transformed features.
 
-**In "LR.ipynb":**
+B) **In "LR.ipynb":**
 
 Data Reading and Examination:
 - Reading a dataset from a CSV file.
@@ -105,7 +106,7 @@ Linear Regression (LR):
 Regularization:
 - Applying L2 regularization (Elastic Net) by using the 'alpha' and 'l1_ratio' parameters.
 
-**In "SVM1.ipynb":**
+C) **In "SVM1.ipynb":**
 
 Data Reading and Examination:
 - Reading a dataset from a CSV file.
@@ -126,7 +127,7 @@ Support Vector Classifier (SVC):
 - Hyperparameter tuning using Grid Search for the kernel type and regularization parameter ('C').
 - Evaluating the model's performance based on accuracy and confusion matrix.
 
-**In "Encoding MultiClass, SVR and RFReg.ipynb":**
+D) **In "Encoding MultiClass, SVR and RFReg.ipynb":**
 
 Data Reading and Examination:
 - Reading a dataset from a CSV file.
